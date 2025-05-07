@@ -35,21 +35,21 @@ const Hero = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="flex flex-col items-center p-4 border border-gray-200 rounded-lg bg-white">
                     <ChartPie className="w-10 h-10 text-finance-teal mb-2" />
-                    <p className="text-center text-sm font-medium">Anomaly Detection</p>
+                    <p className="text-center text-sm font-medium">Audit Intelligence</p>
                   </div>
                   <div className="flex flex-col items-center p-4 border border-gray-200 rounded-lg bg-white">
                     <Shield className="w-10 h-10 text-finance-teal mb-2" />
-                    <p className="text-center text-sm font-medium">Fraud Prevention</p>
+                    <p className="text-center text-sm font-medium">Compliance Copilot</p>
                   </div>
                   <div className="flex flex-col items-center p-4 border border-gray-200 rounded-lg bg-white">
                     <Database className="w-10 h-10 text-finance-teal mb-2" />
-                    <p className="text-center text-sm font-medium">Data Analysis</p>
+                    <p className="text-center text-sm font-medium">Fraud Detection</p>
                   </div>
                   <div className="flex flex-col items-center p-4 border border-gray-200 rounded-lg bg-white">
                     <svg className="w-10 h-10 text-finance-teal mb-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M3 9H7L12 4L17 9H21M3 15H7L12 20L17 15H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
-                    <p className="text-center text-sm font-medium">Pattern Recognition</p>
+                    <p className="text-center text-sm font-medium">Assertions and Validations</p>
                   </div>
                 </div>
                 <div className="mt-6 w-full h-10 bg-gray-100 rounded-md overflow-hidden">
