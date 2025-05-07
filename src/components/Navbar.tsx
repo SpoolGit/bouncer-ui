@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <a href="#" className="flex items-center">
-              <span className="text-xl font-bold text-finance-navy">Audit<span className="text-finance-teal">AI</span></span>
+              <span className="text-xl font-bold text-finance-navy">Bouncer - <span className="text-finance-teal">AI for Audits</span></span>
             </a>
           </div>
           

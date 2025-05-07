@@ -17,7 +17,9 @@ const Hero = () => {
               Reduce errors, save time, and gain deeper insights into your financial data.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="btn-primary">Request Demo</Button>
+              <Button className="btn-primary"onClick={() => window.open('https://calendly.com/devalb', '_blank')}>
+				Request Demo
+			  </Button>
               <Button className="btn-secondary" onClick={() => window.open('https://bouncer.streamlit.app/', '_blank')}>
 				Try It Now!
 			  </Button>
